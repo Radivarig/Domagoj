@@ -1,0 +1,51 @@
+git init
+git add
+git commit
+git commit --amend
+git status
+
+git log
+git stash
+git stash list
+git stash apply
+
+git branch
+git checkout
+git checkout -b ime-brancha ili hash commita 
+
+git reset ad100786bf000e334c4eb12bfe0d9dc8a9465fd6
+
+HEAD
+HEAD@{4}
+HEAD^^^^
+
+git reset HEAD^ # undo last commit, but keep changes
+git reset HEAD^ --hard # undo last commit and DELETE changes
+
+git reflog
+git VAŽNO !
+
+kako izgubiti podatke i biti ljut?
+  git add fajl
+  git reset --hard # sjebo sve
+
+
+git <command> hash_from..hash_to
+
+git remote
+git remote -v # verbose
+git remote add ime link
+git remote remove ime
+
+git push ime_remotea ime_brancha
+
+git pull
+
+git branch -a
+
+gitk # gti gui
+
+# sl put
+  merge
+  conflict
+  rebase
